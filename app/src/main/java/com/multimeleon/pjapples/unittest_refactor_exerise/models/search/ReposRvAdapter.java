@@ -1,4 +1,4 @@
-package com.multimeleon.pjapples.unittest_refactor_exerise.models;
+package com.multimeleon.pjapples.unittest_refactor_exerise.models.search;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.multimeleon.pjapples.unittest_refactor_exerise.R;
+import com.multimeleon.pjapples.unittest_refactor_exerise.models.model.SearchResult;
 
 import java.util.ArrayList;
 import java.util.List;
