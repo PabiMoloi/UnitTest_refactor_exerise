@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity implements SearchView {
     }
 
     @Override
-    public void showError(String s) {
-        Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
+    public void showError(String message) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
     @Override protected void onDestroy(){
         searchPresenter.onDestroy();;
